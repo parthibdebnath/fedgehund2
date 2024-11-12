@@ -14,13 +14,13 @@ pricing_table:
         highlight: false
       - text: ETF/ETN support
         highlight: false
-      - text: Basic reporting
-        highlight: false
       - text: Half-year early withdrawal
+        highlight: false
+      - text: 6-Month update cycle
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=basic
-      text: Get started with Basic
+      text: Get started
   - name: Plus
     color: "#C0C0C0"
     features:
@@ -38,7 +38,7 @@ pricing_table:
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=pro
-      text: Get started with Plus
+      text: Get started
   - name: Ultra
     color: "#FFD700"
     features:
@@ -48,7 +48,7 @@ pricing_table:
         highlight: false
       - text: 30-65% target gain (1Y)
         highlight: false
-      - text: less than 7 dte option support
+      - text: Less than 7 dte option support
         highlight: false
       - text: Outright crypto support
         highlight: false
@@ -56,16 +56,16 @@ pricing_table:
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=professional
-      text: Get started with Ultra
-Pricing Questions:
-  - question: How does the plan system work?
-    answer: You will be assigned a plan basaed on how much you contribute in accordance with the outlined limit. To upgrade or downgrade, simply add or remove money.
-  - question: How do early withdrawals work?
-    answer: Your funds are generally locked in for 1 full calendar year to allow for enough time to achieve target return. Depending on plan choice, you will be given 2, 4, or 12 equally spaced chances to make an early withdrawal and realise any gains/losses up to that point.
-  - question: Why do the target gains vary by amount contributed?
-    answer: More money allows for more skin in the game for multiple sectors at once. Higher tier-plans also use riskier strategies such as options or leveraged trading to generate higher returns.
-  - question: Am I guaranteed the target return?
-    answer: Short Answer: Not really. Long answer: On a good year, yes but..: <a href="#">john@business.com</a>.
+      text: Get started
+faq:
+  - question: What types of payment do you accept?
+    answer: Credit cards including MasterCard, Visa or American Express.
+  - question: Can I change my plan at a later time?
+    answer: Yes, you can upgrade and downgrade your plan at anytime.
+  - question: Do you offer pricing for nonprofit organizations?
+    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
+  - question: Questions?
+    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
