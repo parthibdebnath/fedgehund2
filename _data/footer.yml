@@ -1,10 +1,6 @@
 - links:
   - name: Pricing
     link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
   - name: Contact
     link: /contact/
 - links:
@@ -21,10 +17,10 @@
     link: /
     new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
+  - name: Instagram
+    link: https://instagram.com/okiedokie.64/
     new_window: true
-    social_icon: Facebook
+    social_icon: Instagram
   - name: Twitter
     link: https://twitter.com/cloudcannon/
     social_icon: Twitter
